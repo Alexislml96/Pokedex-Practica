@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5A21D628A2044F00B6C7E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21D528A2044F00B6C7E1 /* AppDelegate.m */; };
+		5E5A21D928A2044F00B6C7E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21D828A2044F00B6C7E1 /* ViewController.m */; };
+		5E5A21DC28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21DA28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld */; };
+		5E5A21DE28A2045200B6C7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A21DD28A2045200B6C7E1 /* Assets.xcassets */; };
+		5E5A21E128A2045200B6C7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A21DF28A2045200B6C7E1 /* Main.storyboard */; };
+		5E5A21E328A2045200B6C7E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21E228A2045200B6C7E1 /* main.m */; };
+		5E5A21EE28A2045300B6C7E1 /* PracticaPokeDexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21ED28A2045300B6C7E1 /* PracticaPokeDexTests.m */; };
+		5E5A21F828A2045300B6C7E1 /* PracticaPokeDexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21F728A2045300B6C7E1 /* PracticaPokeDexUITests.m */; };
+		5E5A21FA28A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21F928A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E5A21EA28A2045300B6C7E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A21C928A2044F00B6C7E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5A21D028A2044F00B6C7E1;
+			remoteInfo = PracticaPokeDex;
+		};
+		5E5A21F428A2045300B6C7E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A21C928A2044F00B6C7E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5A21D028A2044F00B6C7E1;
+			remoteInfo = PracticaPokeDex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E5A21D128A2044F00B6C7E1 /* PracticaPokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaPokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A21D428A2044F00B6C7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E5A21D528A2044F00B6C7E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E5A21D728A2044F00B6C7E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E5A21D828A2044F00B6C7E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E5A21DB28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PracticaPokeDex.xcdatamodel; sourceTree = "<group>"; };
+		5E5A21DD28A2045200B6C7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E5A21E028A2045200B6C7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E5A21E228A2045200B6C7E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E5A21E428A2045200B6C7E1 /* PracticaPokeDex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PracticaPokeDex.entitlements; sourceTree = "<group>"; };
+		5E5A21E928A2045300B6C7E1 /* PracticaPokeDexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaPokeDexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A21ED28A2045300B6C7E1 /* PracticaPokeDexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticaPokeDexTests.m; sourceTree = "<group>"; };
+		5E5A21F328A2045300B6C7E1 /* PracticaPokeDexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaPokeDexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A21F728A2045300B6C7E1 /* PracticaPokeDexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticaPokeDexUITests.m; sourceTree = "<group>"; };
+		5E5A21F928A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticaPokeDexUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5A21CE28A2044F00B6C7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A21E628A2045300B6C7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A21F028A2045300B6C7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5A21C828A2044F00B6C7E1 = {
+			isa = PBXGroup;
+			children = (
+				5E5A21D328A2044F00B6C7E1 /* PracticaPokeDex */,
+				5E5A21EC28A2045300B6C7E1 /* PracticaPokeDexTests */,
+				5E5A21F628A2045300B6C7E1 /* PracticaPokeDexUITests */,
+				5E5A21D228A2044F00B6C7E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5A21D228A2044F00B6C7E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A21D128A2044F00B6C7E1 /* PracticaPokeDex.app */,
+				5E5A21E928A2045300B6C7E1 /* PracticaPokeDexTests.xctest */,
+				5E5A21F328A2045300B6C7E1 /* PracticaPokeDexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5A21D328A2044F00B6C7E1 /* PracticaPokeDex */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A21D428A2044F00B6C7E1 /* AppDelegate.h */,
+				5E5A21D528A2044F00B6C7E1 /* AppDelegate.m */,
+				5E5A21D728A2044F00B6C7E1 /* ViewController.h */,
+				5E5A21D828A2044F00B6C7E1 /* ViewController.m */,
+				5E5A21DD28A2045200B6C7E1 /* Assets.xcassets */,
+				5E5A21DF28A2045200B6C7E1 /* Main.storyboard */,
+				5E5A21E228A2045200B6C7E1 /* main.m */,
+				5E5A21E428A2045200B6C7E1 /* PracticaPokeDex.entitlements */,
+				5E5A21DA28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld */,
+			);
+			path = PracticaPokeDex;
+			sourceTree = "<group>";
+		};
+		5E5A21EC28A2045300B6C7E1 /* PracticaPokeDexTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A21ED28A2045300B6C7E1 /* PracticaPokeDexTests.m */,
+			);
+			path = PracticaPokeDexTests;
+			sourceTree = "<group>";
+		};
+		5E5A21F628A2045300B6C7E1 /* PracticaPokeDexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A21F728A2045300B6C7E1 /* PracticaPokeDexUITests.m */,
+				5E5A21F928A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m */,
+			);
+			path = PracticaPokeDexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5A21D028A2044F00B6C7E1 /* PracticaPokeDex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A21FD28A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDex" */;
+			buildPhases = (
+				5E5A21CD28A2044F00B6C7E1 /* Sources */,
+				5E5A21CE28A2044F00B6C7E1 /* Frameworks */,
+				5E5A21CF28A2044F00B6C7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticaPokeDex;
+			productName = PracticaPokeDex;
+			productReference = 5E5A21D128A2044F00B6C7E1 /* PracticaPokeDex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E5A21E828A2045300B6C7E1 /* PracticaPokeDexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A220028A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDexTests" */;
+			buildPhases = (
+				5E5A21E528A2045300B6C7E1 /* Sources */,
+				5E5A21E628A2045300B6C7E1 /* Frameworks */,
+				5E5A21E728A2045300B6C7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5A21EB28A2045300B6C7E1 /* PBXTargetDependency */,
+			);
+			name = PracticaPokeDexTests;
+			productName = PracticaPokeDexTests;
+			productReference = 5E5A21E928A2045300B6C7E1 /* PracticaPokeDexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E5A21F228A2045300B6C7E1 /* PracticaPokeDexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A220328A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDexUITests" */;
+			buildPhases = (
+				5E5A21EF28A2045300B6C7E1 /* Sources */,
+				5E5A21F028A2045300B6C7E1 /* Frameworks */,
+				5E5A21F128A2045300B6C7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5A21F528A2045300B6C7E1 /* PBXTargetDependency */,
+			);
+			name = PracticaPokeDexUITests;
+			productName = PracticaPokeDexUITests;
+			productReference = 5E5A21F328A2045300B6C7E1 /* PracticaPokeDexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5A21C928A2044F00B6C7E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5E5A21D028A2044F00B6C7E1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5E5A21E828A2045300B6C7E1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5E5A21D028A2044F00B6C7E1;
+					};
+					5E5A21F228A2045300B6C7E1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5E5A21D028A2044F00B6C7E1;
+					};
+				};
+			};
+			buildConfigurationList = 5E5A21CC28A2044F00B6C7E1 /* Build configuration list for PBXProject "PracticaPokeDex" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E5A21C828A2044F00B6C7E1;
+			productRefGroup = 5E5A21D228A2044F00B6C7E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5A21D028A2044F00B6C7E1 /* PracticaPokeDex */,
+				5E5A21E828A2045300B6C7E1 /* PracticaPokeDexTests */,
+				5E5A21F228A2045300B6C7E1 /* PracticaPokeDexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E5A21CF28A2044F00B6C7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A21DE28A2045200B6C7E1 /* Assets.xcassets in Resources */,
+				5E5A21E128A2045200B6C7E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A21E728A2045300B6C7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A21F128A2045300B6C7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5A21CD28A2044F00B6C7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A21D928A2044F00B6C7E1 /* ViewController.m in Sources */,
+				5E5A21DC28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld in Sources */,
+				5E5A21E328A2045200B6C7E1 /* main.m in Sources */,
+				5E5A21D628A2044F00B6C7E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A21E528A2045300B6C7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A21EE28A2045300B6C7E1 /* PracticaPokeDexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A21EF28A2045300B6C7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A21FA28A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m in Sources */,
+				5E5A21F828A2045300B6C7E1 /* PracticaPokeDexUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E5A21EB28A2045300B6C7E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5A21D028A2044F00B6C7E1 /* PracticaPokeDex */;
+			targetProxy = 5E5A21EA28A2045300B6C7E1 /* PBXContainerItemProxy */;
+		};
+		5E5A21F528A2045300B6C7E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5A21D028A2044F00B6C7E1 /* PracticaPokeDex */;
+			targetProxy = 5E5A21F428A2045300B6C7E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E5A21DF28A2045200B6C7E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5A21E028A2045200B6C7E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E5A21FB28A2045300B6C7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E5A21FC28A2045300B6C7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E5A21FE28A2045300B6C7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PracticaPokeDex/PracticaPokeDex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexis.PracticaPokeDex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		5E5A21FF28A2045300B6C7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PracticaPokeDex/PracticaPokeDex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexis.PracticaPokeDex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		5E5A220128A2045300B6C7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexis.PracticaPokeDexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaPokeDex.app/Contents/MacOS/PracticaPokeDex";
+			};
+			name = Debug;
+		};
+		5E5A220228A2045300B6C7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexis.PracticaPokeDexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticaPokeDex.app/Contents/MacOS/PracticaPokeDex";
+			};
+			name = Release;
+		};
+		5E5A220428A2045300B6C7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexis.PracticaPokeDexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = PracticaPokeDex;
+			};
+			name = Debug;
+		};
+		5E5A220528A2045300B6C7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexis.PracticaPokeDexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = PracticaPokeDex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5A21CC28A2044F00B6C7E1 /* Build configuration list for PBXProject "PracticaPokeDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A21FB28A2045300B6C7E1 /* Debug */,
+				5E5A21FC28A2045300B6C7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A21FD28A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A21FE28A2045300B6C7E1 /* Debug */,
+				5E5A21FF28A2045300B6C7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A220028A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A220128A2045300B6C7E1 /* Debug */,
+				5E5A220228A2045300B6C7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A220328A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A220428A2045300B6C7E1 /* Debug */,
+				5E5A220528A2045300B6C7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E5A21DA28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E5A21DB28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodel */,
+			);
+			currentVersion = 5E5A21DB28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodel */;
+			path = PracticaPokeDex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E5A21C928A2044F00B6C7E1 /* Project object */;
+}
