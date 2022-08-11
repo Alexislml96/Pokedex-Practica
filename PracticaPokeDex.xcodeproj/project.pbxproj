@@ -16,6 +16,42 @@
 		5E5A21EE28A2045300B6C7E1 /* PracticaPokeDexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21ED28A2045300B6C7E1 /* PracticaPokeDexTests.m */; };
 		5E5A21F828A2045300B6C7E1 /* PracticaPokeDexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21F728A2045300B6C7E1 /* PracticaPokeDexUITests.m */; };
 		5E5A21FA28A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A21F928A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m */; };
+		5E5A220828A20C2C00B6C7E1 /* PokeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A220728A20C2C00B6C7E1 /* PokeListViewController.m */; };
+		5E5A220C28A20C4700B6C7E1 /* FavoritosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A220A28A20C4700B6C7E1 /* FavoritosViewController.m */; };
+		5E5A220D28A20C4700B6C7E1 /* FavoritosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A220B28A20C4700B6C7E1 /* FavoritosViewController.xib */; };
+		5E5A221128A20DE800B6C7E1 /* PokeResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A221028A20DE800B6C7E1 /* PokeResults.m */; };
+		5E5A221428A20ECE00B6C7E1 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A221328A20ECE00B6C7E1 /* Result.m */; };
+		5E5A221728A20F3E00B6C7E1 /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A221628A20F3E00B6C7E1 /* Pokemon.m */; };
+		5E5A221B28A211A400B6C7E1 /* ApiRestMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A221A28A211A400B6C7E1 /* ApiRestMethods.m */; };
+		5E5A221F28A322B800B6C7E1 /* PokeDatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A221E28A322B800B6C7E1 /* PokeDatosViewController.m */; };
+		5E948E9828A47DA70000FA77 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E948E9728A47DA70000FA77 /* Utilities.m */; };
+		5E988C1728A335F300A3FAC3 /* Ability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C1628A335F300A3FAC3 /* Ability.m */; };
+		5E988C1A28A3363300A3FAC3 /* Species.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C1928A3363300A3FAC3 /* Species.m */; };
+		5E988C1D28A3369B00A3FAC3 /* GameIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C1C28A3369B00A3FAC3 /* GameIndex.m */; };
+		5E988C2028A336CF00A3FAC3 /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C1F28A336CF00A3FAC3 /* Move.m */; };
+		5E988C2328A3375E00A3FAC3 /* VersionGroupDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C2228A3375E00A3FAC3 /* VersionGroupDetail.m */; };
+		5E988C2628A3379600A3FAC3 /* GenerationV.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C2528A3379600A3FAC3 /* GenerationV.m */; };
+		5E988C2928A337B200A3FAC3 /* GenerationIv.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C2828A337B200A3FAC3 /* GenerationIv.m */; };
+		5E988C2C28A337E800A3FAC3 /* Versions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C2B28A337E800A3FAC3 /* Versions.m */; };
+		5E988C2F28A3380A00A3FAC3 /* Sprites.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C2E28A3380A00A3FAC3 /* Sprites.m */; };
+		5E988C3228A3383300A3FAC3 /* GenerationI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C3128A3383300A3FAC3 /* GenerationI.m */; };
+		5E988C3528A3387900A3FAC3 /* RedBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C3428A3387900A3FAC3 /* RedBlue.m */; };
+		5E988C3828A3389200A3FAC3 /* GenerationIi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C3728A3389200A3FAC3 /* GenerationIi.m */; };
+		5E988C3B28A338A600A3FAC3 /* Crystal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C3A28A338A600A3FAC3 /* Crystal.m */; };
+		5E988C3E28A338C400A3FAC3 /* Gold.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C3D28A338C400A3FAC3 /* Gold.m */; };
+		5E988C4128A338E100A3FAC3 /* GenerationIii.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C4028A338E100A3FAC3 /* GenerationIii.m */; };
+		5E988C4428A338F800A3FAC3 /* Emerald.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C4328A338F800A3FAC3 /* Emerald.m */; };
+		5E988C4728A3391000A3FAC3 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C4628A3391000A3FAC3 /* Home.m */; };
+		5E988C4A28A3392D00A3FAC3 /* GenerationVii.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C4928A3392D00A3FAC3 /* GenerationVii.m */; };
+		5E988C4D28A3394400A3FAC3 /* DreamWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C4C28A3394400A3FAC3 /* DreamWorld.m */; };
+		5E988C5028A3396300A3FAC3 /* GenerationViii.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C4F28A3396300A3FAC3 /* GenerationViii.m */; };
+		5E988C5328A3398800A3FAC3 /* Other.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C5228A3398800A3FAC3 /* Other.m */; };
+		5E988C5628A339A500A3FAC3 /* OfficialArtwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C5528A339A500A3FAC3 /* OfficialArtwork.m */; };
+		5E988C5928A339BB00A3FAC3 /* Stat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C5828A339BB00A3FAC3 /* Stat.m */; };
+		5E988C5C28A339D300A3FAC3 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E988C5B28A339D300A3FAC3 /* Type.m */; };
+		82937CAE7B41F15265B72259 /* Pods_PracticaPokeDex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642FEE5A1A9BAE609B592A6A /* Pods_PracticaPokeDex.framework */; };
+		829F1F95AF2814B60C326067 /* Pods_PracticaPokeDex_PracticaPokeDexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292D4B87756F7D07BE254662 /* Pods_PracticaPokeDex_PracticaPokeDexUITests.framework */; };
+		EB80BE2C61234489364ECE38 /* Pods_PracticaPokeDexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5D448DC3DD8BB0E4C52DF /* Pods_PracticaPokeDexTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +72,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DA764B0A5AE21357EBF9939 /* Pods-PracticaPokeDex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaPokeDex.debug.xcconfig"; path = "Target Support Files/Pods-PracticaPokeDex/Pods-PracticaPokeDex.debug.xcconfig"; sourceTree = "<group>"; };
+		292D4B87756F7D07BE254662 /* Pods_PracticaPokeDex_PracticaPokeDexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticaPokeDex_PracticaPokeDexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B90929E76F579DB3552CDC3 /* Pods-PracticaPokeDex-PracticaPokeDexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaPokeDex-PracticaPokeDexUITests.debug.xcconfig"; path = "Target Support Files/Pods-PracticaPokeDex-PracticaPokeDexUITests/Pods-PracticaPokeDex-PracticaPokeDexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45D5D448DC3DD8BB0E4C52DF /* Pods_PracticaPokeDexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticaPokeDexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5A21D128A2044F00B6C7E1 /* PracticaPokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaPokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5A21D428A2044F00B6C7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E5A21D528A2044F00B6C7E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +91,77 @@
 		5E5A21F328A2045300B6C7E1 /* PracticaPokeDexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaPokeDexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5A21F728A2045300B6C7E1 /* PracticaPokeDexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticaPokeDexUITests.m; sourceTree = "<group>"; };
 		5E5A21F928A2045300B6C7E1 /* PracticaPokeDexUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticaPokeDexUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5E5A220628A20C2C00B6C7E1 /* PokeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokeListViewController.h; sourceTree = "<group>"; };
+		5E5A220728A20C2C00B6C7E1 /* PokeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeListViewController.m; sourceTree = "<group>"; };
+		5E5A220928A20C4700B6C7E1 /* FavoritosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritosViewController.h; sourceTree = "<group>"; };
+		5E5A220A28A20C4700B6C7E1 /* FavoritosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritosViewController.m; sourceTree = "<group>"; };
+		5E5A220B28A20C4700B6C7E1 /* FavoritosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritosViewController.xib; sourceTree = "<group>"; };
+		5E5A220F28A20DE800B6C7E1 /* PokeResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokeResults.h; sourceTree = "<group>"; };
+		5E5A221028A20DE800B6C7E1 /* PokeResults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeResults.m; sourceTree = "<group>"; };
+		5E5A221228A20ECE00B6C7E1 /* Result.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		5E5A221328A20ECE00B6C7E1 /* Result.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		5E5A221528A20F3E00B6C7E1 /* Pokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		5E5A221628A20F3E00B6C7E1 /* Pokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
+		5E5A221928A211A400B6C7E1 /* ApiRestMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiRestMethods.h; sourceTree = "<group>"; };
+		5E5A221A28A211A400B6C7E1 /* ApiRestMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiRestMethods.m; sourceTree = "<group>"; };
+		5E5A221C28A21F0200B6C7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E5A221D28A322B800B6C7E1 /* PokeDatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokeDatosViewController.h; sourceTree = "<group>"; };
+		5E5A221E28A322B800B6C7E1 /* PokeDatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeDatosViewController.m; sourceTree = "<group>"; };
+		5E948E9628A47DA70000FA77 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		5E948E9728A47DA70000FA77 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		5E988C1528A335F300A3FAC3 /* Ability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ability.h; sourceTree = "<group>"; };
+		5E988C1628A335F300A3FAC3 /* Ability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ability.m; sourceTree = "<group>"; };
+		5E988C1828A3363300A3FAC3 /* Species.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Species.h; sourceTree = "<group>"; };
+		5E988C1928A3363300A3FAC3 /* Species.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Species.m; sourceTree = "<group>"; };
+		5E988C1B28A3369B00A3FAC3 /* GameIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameIndex.h; sourceTree = "<group>"; };
+		5E988C1C28A3369B00A3FAC3 /* GameIndex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameIndex.m; sourceTree = "<group>"; };
+		5E988C1E28A336CF00A3FAC3 /* Move.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		5E988C1F28A336CF00A3FAC3 /* Move.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Move.m; sourceTree = "<group>"; };
+		5E988C2128A3375E00A3FAC3 /* VersionGroupDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionGroupDetail.h; sourceTree = "<group>"; };
+		5E988C2228A3375E00A3FAC3 /* VersionGroupDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VersionGroupDetail.m; sourceTree = "<group>"; };
+		5E988C2428A3379600A3FAC3 /* GenerationV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationV.h; sourceTree = "<group>"; };
+		5E988C2528A3379600A3FAC3 /* GenerationV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationV.m; sourceTree = "<group>"; };
+		5E988C2728A337B200A3FAC3 /* GenerationIv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationIv.h; sourceTree = "<group>"; };
+		5E988C2828A337B200A3FAC3 /* GenerationIv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationIv.m; sourceTree = "<group>"; };
+		5E988C2A28A337E800A3FAC3 /* Versions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Versions.h; sourceTree = "<group>"; };
+		5E988C2B28A337E800A3FAC3 /* Versions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Versions.m; sourceTree = "<group>"; };
+		5E988C2D28A3380A00A3FAC3 /* Sprites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sprites.h; sourceTree = "<group>"; };
+		5E988C2E28A3380A00A3FAC3 /* Sprites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sprites.m; sourceTree = "<group>"; };
+		5E988C3028A3383300A3FAC3 /* GenerationI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationI.h; sourceTree = "<group>"; };
+		5E988C3128A3383300A3FAC3 /* GenerationI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationI.m; sourceTree = "<group>"; };
+		5E988C3328A3387900A3FAC3 /* RedBlue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedBlue.h; sourceTree = "<group>"; };
+		5E988C3428A3387900A3FAC3 /* RedBlue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBlue.m; sourceTree = "<group>"; };
+		5E988C3628A3389200A3FAC3 /* GenerationIi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationIi.h; sourceTree = "<group>"; };
+		5E988C3728A3389200A3FAC3 /* GenerationIi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationIi.m; sourceTree = "<group>"; };
+		5E988C3928A338A600A3FAC3 /* Crystal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crystal.h; sourceTree = "<group>"; };
+		5E988C3A28A338A600A3FAC3 /* Crystal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crystal.m; sourceTree = "<group>"; };
+		5E988C3C28A338C400A3FAC3 /* Gold.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gold.h; sourceTree = "<group>"; };
+		5E988C3D28A338C400A3FAC3 /* Gold.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gold.m; sourceTree = "<group>"; };
+		5E988C3F28A338E100A3FAC3 /* GenerationIii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationIii.h; sourceTree = "<group>"; };
+		5E988C4028A338E100A3FAC3 /* GenerationIii.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationIii.m; sourceTree = "<group>"; };
+		5E988C4228A338F800A3FAC3 /* Emerald.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Emerald.h; sourceTree = "<group>"; };
+		5E988C4328A338F800A3FAC3 /* Emerald.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Emerald.m; sourceTree = "<group>"; };
+		5E988C4528A3391000A3FAC3 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		5E988C4628A3391000A3FAC3 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		5E988C4828A3392D00A3FAC3 /* GenerationVii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationVii.h; sourceTree = "<group>"; };
+		5E988C4928A3392D00A3FAC3 /* GenerationVii.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationVii.m; sourceTree = "<group>"; };
+		5E988C4B28A3394400A3FAC3 /* DreamWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DreamWorld.h; sourceTree = "<group>"; };
+		5E988C4C28A3394400A3FAC3 /* DreamWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamWorld.m; sourceTree = "<group>"; };
+		5E988C4E28A3396300A3FAC3 /* GenerationViii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenerationViii.h; sourceTree = "<group>"; };
+		5E988C4F28A3396300A3FAC3 /* GenerationViii.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerationViii.m; sourceTree = "<group>"; };
+		5E988C5128A3398800A3FAC3 /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		5E988C5228A3398800A3FAC3 /* Other.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Other.m; sourceTree = "<group>"; };
+		5E988C5428A339A500A3FAC3 /* OfficialArtwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfficialArtwork.h; sourceTree = "<group>"; };
+		5E988C5528A339A500A3FAC3 /* OfficialArtwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfficialArtwork.m; sourceTree = "<group>"; };
+		5E988C5728A339BB00A3FAC3 /* Stat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stat.h; sourceTree = "<group>"; };
+		5E988C5828A339BB00A3FAC3 /* Stat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stat.m; sourceTree = "<group>"; };
+		5E988C5A28A339D300A3FAC3 /* Type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		5E988C5B28A339D300A3FAC3 /* Type.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
+		642FEE5A1A9BAE609B592A6A /* Pods_PracticaPokeDex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticaPokeDex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B54698377ECAC19598B685 /* Pods-PracticaPokeDexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaPokeDexTests.release.xcconfig"; path = "Target Support Files/Pods-PracticaPokeDexTests/Pods-PracticaPokeDexTests.release.xcconfig"; sourceTree = "<group>"; };
+		82E853CB3278CEF3BD5E2402 /* Pods-PracticaPokeDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaPokeDex.release.xcconfig"; path = "Target Support Files/Pods-PracticaPokeDex/Pods-PracticaPokeDex.release.xcconfig"; sourceTree = "<group>"; };
+		91B2E10EC325B19F2B4F3442 /* Pods-PracticaPokeDex-PracticaPokeDexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaPokeDex-PracticaPokeDexUITests.release.xcconfig"; path = "Target Support Files/Pods-PracticaPokeDex-PracticaPokeDexUITests/Pods-PracticaPokeDex-PracticaPokeDexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD01BEE3B0AAFD9B7F3210B0 /* Pods-PracticaPokeDexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticaPokeDexTests.debug.xcconfig"; path = "Target Support Files/Pods-PracticaPokeDexTests/Pods-PracticaPokeDexTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82937CAE7B41F15265B72259 /* Pods_PracticaPokeDex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB80BE2C61234489364ECE38 /* Pods_PracticaPokeDexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829F1F95AF2814B60C326067 /* Pods_PracticaPokeDex_PracticaPokeDexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +199,8 @@
 				5E5A21EC28A2045300B6C7E1 /* PracticaPokeDexTests */,
 				5E5A21F628A2045300B6C7E1 /* PracticaPokeDexUITests */,
 				5E5A21D228A2044F00B6C7E1 /* Products */,
+				7BDDB739EF4F9F7396818288 /* Pods */,
+				9A496161EC86F916E1DF5742 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +217,10 @@
 		5E5A21D328A2044F00B6C7E1 /* PracticaPokeDex */ = {
 			isa = PBXGroup;
 			children = (
+				5E948E9528A47D930000FA77 /* Utilities */,
+				5E5A221C28A21F0200B6C7E1 /* Info.plist */,
+				5E5A221828A2118700B6C7E1 /* ApiRest */,
+				5E5A220E28A20DC700B6C7E1 /* Entities */,
 				5E5A21D428A2044F00B6C7E1 /* AppDelegate.h */,
 				5E5A21D528A2044F00B6C7E1 /* AppDelegate.m */,
 				5E5A21D728A2044F00B6C7E1 /* ViewController.h */,
@@ -110,6 +230,13 @@
 				5E5A21E228A2045200B6C7E1 /* main.m */,
 				5E5A21E428A2045200B6C7E1 /* PracticaPokeDex.entitlements */,
 				5E5A21DA28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld */,
+				5E5A220628A20C2C00B6C7E1 /* PokeListViewController.h */,
+				5E5A220728A20C2C00B6C7E1 /* PokeListViewController.m */,
+				5E5A220928A20C4700B6C7E1 /* FavoritosViewController.h */,
+				5E5A220A28A20C4700B6C7E1 /* FavoritosViewController.m */,
+				5E5A220B28A20C4700B6C7E1 /* FavoritosViewController.xib */,
+				5E5A221D28A322B800B6C7E1 /* PokeDatosViewController.h */,
+				5E5A221E28A322B800B6C7E1 /* PokeDatosViewController.m */,
 			);
 			path = PracticaPokeDex;
 			sourceTree = "<group>";
@@ -131,6 +258,108 @@
 			path = PracticaPokeDexUITests;
 			sourceTree = "<group>";
 		};
+		5E5A220E28A20DC700B6C7E1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A220F28A20DE800B6C7E1 /* PokeResults.h */,
+				5E5A221028A20DE800B6C7E1 /* PokeResults.m */,
+				5E5A221228A20ECE00B6C7E1 /* Result.h */,
+				5E5A221328A20ECE00B6C7E1 /* Result.m */,
+				5E5A221528A20F3E00B6C7E1 /* Pokemon.h */,
+				5E5A221628A20F3E00B6C7E1 /* Pokemon.m */,
+				5E988C1528A335F300A3FAC3 /* Ability.h */,
+				5E988C1628A335F300A3FAC3 /* Ability.m */,
+				5E988C1828A3363300A3FAC3 /* Species.h */,
+				5E988C1928A3363300A3FAC3 /* Species.m */,
+				5E988C1B28A3369B00A3FAC3 /* GameIndex.h */,
+				5E988C1C28A3369B00A3FAC3 /* GameIndex.m */,
+				5E988C1E28A336CF00A3FAC3 /* Move.h */,
+				5E988C1F28A336CF00A3FAC3 /* Move.m */,
+				5E988C2128A3375E00A3FAC3 /* VersionGroupDetail.h */,
+				5E988C2228A3375E00A3FAC3 /* VersionGroupDetail.m */,
+				5E988C2428A3379600A3FAC3 /* GenerationV.h */,
+				5E988C2528A3379600A3FAC3 /* GenerationV.m */,
+				5E988C2728A337B200A3FAC3 /* GenerationIv.h */,
+				5E988C2828A337B200A3FAC3 /* GenerationIv.m */,
+				5E988C2A28A337E800A3FAC3 /* Versions.h */,
+				5E988C2B28A337E800A3FAC3 /* Versions.m */,
+				5E988C2D28A3380A00A3FAC3 /* Sprites.h */,
+				5E988C2E28A3380A00A3FAC3 /* Sprites.m */,
+				5E988C3028A3383300A3FAC3 /* GenerationI.h */,
+				5E988C3128A3383300A3FAC3 /* GenerationI.m */,
+				5E988C3328A3387900A3FAC3 /* RedBlue.h */,
+				5E988C3428A3387900A3FAC3 /* RedBlue.m */,
+				5E988C3628A3389200A3FAC3 /* GenerationIi.h */,
+				5E988C3728A3389200A3FAC3 /* GenerationIi.m */,
+				5E988C3928A338A600A3FAC3 /* Crystal.h */,
+				5E988C3A28A338A600A3FAC3 /* Crystal.m */,
+				5E988C3C28A338C400A3FAC3 /* Gold.h */,
+				5E988C3D28A338C400A3FAC3 /* Gold.m */,
+				5E988C3F28A338E100A3FAC3 /* GenerationIii.h */,
+				5E988C4028A338E100A3FAC3 /* GenerationIii.m */,
+				5E988C4228A338F800A3FAC3 /* Emerald.h */,
+				5E988C4328A338F800A3FAC3 /* Emerald.m */,
+				5E988C4528A3391000A3FAC3 /* Home.h */,
+				5E988C4628A3391000A3FAC3 /* Home.m */,
+				5E988C4828A3392D00A3FAC3 /* GenerationVii.h */,
+				5E988C4928A3392D00A3FAC3 /* GenerationVii.m */,
+				5E988C4B28A3394400A3FAC3 /* DreamWorld.h */,
+				5E988C4C28A3394400A3FAC3 /* DreamWorld.m */,
+				5E988C4E28A3396300A3FAC3 /* GenerationViii.h */,
+				5E988C4F28A3396300A3FAC3 /* GenerationViii.m */,
+				5E988C5128A3398800A3FAC3 /* Other.h */,
+				5E988C5228A3398800A3FAC3 /* Other.m */,
+				5E988C5428A339A500A3FAC3 /* OfficialArtwork.h */,
+				5E988C5528A339A500A3FAC3 /* OfficialArtwork.m */,
+				5E988C5728A339BB00A3FAC3 /* Stat.h */,
+				5E988C5828A339BB00A3FAC3 /* Stat.m */,
+				5E988C5A28A339D300A3FAC3 /* Type.h */,
+				5E988C5B28A339D300A3FAC3 /* Type.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		5E5A221828A2118700B6C7E1 /* ApiRest */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A221928A211A400B6C7E1 /* ApiRestMethods.h */,
+				5E5A221A28A211A400B6C7E1 /* ApiRestMethods.m */,
+			);
+			name = ApiRest;
+			sourceTree = "<group>";
+		};
+		5E948E9528A47D930000FA77 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E948E9628A47DA70000FA77 /* Utilities.h */,
+				5E948E9728A47DA70000FA77 /* Utilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7BDDB739EF4F9F7396818288 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DA764B0A5AE21357EBF9939 /* Pods-PracticaPokeDex.debug.xcconfig */,
+				82E853CB3278CEF3BD5E2402 /* Pods-PracticaPokeDex.release.xcconfig */,
+				3B90929E76F579DB3552CDC3 /* Pods-PracticaPokeDex-PracticaPokeDexUITests.debug.xcconfig */,
+				91B2E10EC325B19F2B4F3442 /* Pods-PracticaPokeDex-PracticaPokeDexUITests.release.xcconfig */,
+				BD01BEE3B0AAFD9B7F3210B0 /* Pods-PracticaPokeDexTests.debug.xcconfig */,
+				65B54698377ECAC19598B685 /* Pods-PracticaPokeDexTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A496161EC86F916E1DF5742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642FEE5A1A9BAE609B592A6A /* Pods_PracticaPokeDex.framework */,
+				292D4B87756F7D07BE254662 /* Pods_PracticaPokeDex_PracticaPokeDexUITests.framework */,
+				45D5D448DC3DD8BB0E4C52DF /* Pods_PracticaPokeDexTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +367,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5A21FD28A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDex" */;
 			buildPhases = (
+				EA0B4CCC96BF98D6E8A6B0BE /* [CP] Check Pods Manifest.lock */,
 				5E5A21CD28A2044F00B6C7E1 /* Sources */,
 				5E5A21CE28A2044F00B6C7E1 /* Frameworks */,
 				5E5A21CF28A2044F00B6C7E1 /* Resources */,
+				6C9701D48A43C6AFCC1A7B0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +386,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5A220028A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDexTests" */;
 			buildPhases = (
+				B28A8E1D4B98B9C7DA380E53 /* [CP] Check Pods Manifest.lock */,
 				5E5A21E528A2045300B6C7E1 /* Sources */,
 				5E5A21E628A2045300B6C7E1 /* Frameworks */,
 				5E5A21E728A2045300B6C7E1 /* Resources */,
@@ -173,9 +405,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5A220328A2045300B6C7E1 /* Build configuration list for PBXNativeTarget "PracticaPokeDexUITests" */;
 			buildPhases = (
+				6595D5303038F062B54278EE /* [CP] Check Pods Manifest.lock */,
 				5E5A21EF28A2045300B6C7E1 /* Sources */,
 				5E5A21F028A2045300B6C7E1 /* Frameworks */,
 				5E5A21F128A2045300B6C7E1 /* Resources */,
+				800189CF032A8ACFE9476B44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5A21DE28A2045200B6C7E1 /* Assets.xcassets in Resources */,
+				5E5A220D28A20C4700B6C7E1 /* FavoritosViewController.xib in Resources */,
 				5E5A21E128A2045200B6C7E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,15 +490,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6595D5303038F062B54278EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracticaPokeDex-PracticaPokeDexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C9701D48A43C6AFCC1A7B0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracticaPokeDex/Pods-PracticaPokeDex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracticaPokeDex/Pods-PracticaPokeDex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracticaPokeDex/Pods-PracticaPokeDex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800189CF032A8ACFE9476B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracticaPokeDex-PracticaPokeDexUITests/Pods-PracticaPokeDex-PracticaPokeDexUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracticaPokeDex-PracticaPokeDexUITests/Pods-PracticaPokeDex-PracticaPokeDexUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracticaPokeDex-PracticaPokeDexUITests/Pods-PracticaPokeDex-PracticaPokeDexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28A8E1D4B98B9C7DA380E53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracticaPokeDexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0B4CCC96BF98D6E8A6B0BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracticaPokeDex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E5A21CD28A2044F00B6C7E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E988C3228A3383300A3FAC3 /* GenerationI.m in Sources */,
+				5E988C2928A337B200A3FAC3 /* GenerationIv.m in Sources */,
+				5E5A221128A20DE800B6C7E1 /* PokeResults.m in Sources */,
+				5E988C3528A3387900A3FAC3 /* RedBlue.m in Sources */,
+				5E988C5328A3398800A3FAC3 /* Other.m in Sources */,
+				5E988C5C28A339D300A3FAC3 /* Type.m in Sources */,
+				5E988C5628A339A500A3FAC3 /* OfficialArtwork.m in Sources */,
+				5E988C2628A3379600A3FAC3 /* GenerationV.m in Sources */,
+				5E988C1A28A3363300A3FAC3 /* Species.m in Sources */,
+				5E5A220C28A20C4700B6C7E1 /* FavoritosViewController.m in Sources */,
+				5E988C3828A3389200A3FAC3 /* GenerationIi.m in Sources */,
+				5E5A221428A20ECE00B6C7E1 /* Result.m in Sources */,
+				5E5A221F28A322B800B6C7E1 /* PokeDatosViewController.m in Sources */,
+				5E988C2328A3375E00A3FAC3 /* VersionGroupDetail.m in Sources */,
+				5E988C2C28A337E800A3FAC3 /* Versions.m in Sources */,
+				5E5A221728A20F3E00B6C7E1 /* Pokemon.m in Sources */,
 				5E5A21D928A2044F00B6C7E1 /* ViewController.m in Sources */,
+				5E988C1728A335F300A3FAC3 /* Ability.m in Sources */,
+				5E988C5028A3396300A3FAC3 /* GenerationViii.m in Sources */,
+				5E988C4A28A3392D00A3FAC3 /* GenerationVii.m in Sources */,
+				5E988C1D28A3369B00A3FAC3 /* GameIndex.m in Sources */,
+				5E5A221B28A211A400B6C7E1 /* ApiRestMethods.m in Sources */,
+				5E988C4128A338E100A3FAC3 /* GenerationIii.m in Sources */,
+				5E988C4728A3391000A3FAC3 /* Home.m in Sources */,
+				5E988C4D28A3394400A3FAC3 /* DreamWorld.m in Sources */,
+				5E988C2F28A3380A00A3FAC3 /* Sprites.m in Sources */,
+				5E988C2028A336CF00A3FAC3 /* Move.m in Sources */,
+				5E5A220828A20C2C00B6C7E1 /* PokeListViewController.m in Sources */,
+				5E988C4428A338F800A3FAC3 /* Emerald.m in Sources */,
+				5E988C3E28A338C400A3FAC3 /* Gold.m in Sources */,
+				5E948E9828A47DA70000FA77 /* Utilities.m in Sources */,
 				5E5A21DC28A2044F00B6C7E1 /* PracticaPokeDex.xcdatamodeld in Sources */,
 				5E5A21E328A2045200B6C7E1 /* main.m in Sources */,
+				5E988C3B28A338A600A3FAC3 /* Crystal.m in Sources */,
 				5E5A21D628A2044F00B6C7E1 /* AppDelegate.m in Sources */,
+				5E988C5928A339BB00A3FAC3 /* Stat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +792,7 @@
 		};
 		5E5A21FE28A2045300B6C7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA764B0A5AE21357EBF9939 /* Pods-PracticaPokeDex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -430,6 +801,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticaPokeDex/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -446,6 +818,7 @@
 		};
 		5E5A21FF28A2045300B6C7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E853CB3278CEF3BD5E2402 /* Pods-PracticaPokeDex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +827,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticaPokeDex/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -470,6 +844,7 @@
 		};
 		5E5A220128A2045300B6C7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD01BEE3B0AAFD9B7F3210B0 /* Pods-PracticaPokeDexTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +861,7 @@
 		};
 		5E5A220228A2045300B6C7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B54698377ECAC19598B685 /* Pods-PracticaPokeDexTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +878,7 @@
 		};
 		5E5A220428A2045300B6C7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B90929E76F579DB3552CDC3 /* Pods-PracticaPokeDex-PracticaPokeDexUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -516,6 +893,7 @@
 		};
 		5E5A220528A2045300B6C7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B2E10EC325B19F2B4F3442 /* Pods-PracticaPokeDex-PracticaPokeDexUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
